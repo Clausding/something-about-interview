@@ -1,0 +1,12 @@
+spring 相关面试题
+参考书籍：Java面试宝典2017版V1.1
+
+	1.spring 中 bean 的 scope 有 5 种， 分别是 singleton / prototype / request / session / global session
+	
+	2.介绍一下 spring 中的事务管理？
+	
+	3.spring 的核心类有哪些？BeanFactory / BeanWrapper / ApplicationContext
+	
+	4.bean 的生命周期。首先是 bean 的定义和初始化，然后是 bean 的调用，然后是 bean 的销毁。
+	
+	5.spring aop 技术中，各种名词解释。

@@ -1,0 +1,15 @@
+e3 商城技术选型
+
+1.使用富文本编辑器 kindEditor 进行商品详情编写。修改一个 css 文件即可修改编辑器风格。
+
+2.使用分布式文件系统 FastDFS 上传保存大量图片。该系统分为 Tracker server 和 Storage server ，其中 ts 用于负载均衡和调度，ss 用于文件储存。
+
+3.使用 dubbo 分布式框架配合 zookeeper 来实现SOA(面向服务的体系架构)。
+
+4.使用 Freemaker 静态模板引擎技术来实现页面静态化,来减少数据库的压力和页面的访问效率。
+
+5.使用 redis 作为页面大广告的缓存，减少数据库压力。
+
+6.使用 redis 模拟 session 作为单点登录，使用 keepalived 软件防止单点故障。
+
+7.使用 nginx 实现负载均衡和高可用。
